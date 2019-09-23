@@ -5,3 +5,22 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+ideas = Idea.create([
+    {
+        title: 'Start a new club',
+        body: 'Good idea to start a Robotics kids club with XiaoMi Robots'
+    },
+    {
+        title: 'Prepare lemonate',
+        body: 'Prepare extraordinary lemonate with the products provided'
+    },
+    {
+        title: 'Learn about Multitenancy',
+        body: 'Read about multitenancy and practice pair of applications'
+    },
+    {
+        title: 'Learn German',
+        body: 'Start learning German and French if possible'
+    }
+])
