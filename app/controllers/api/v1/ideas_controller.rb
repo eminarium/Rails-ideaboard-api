@@ -20,7 +20,7 @@ module Api::V1
       @idea = Idea.find(params[:id])
 
       if @idea.destroy
-        render head :no_content, status: :ok
+        return head :no_content, status: :ok
       else
         render json: @idea.errors, status: :unprocessable_entity
       end
